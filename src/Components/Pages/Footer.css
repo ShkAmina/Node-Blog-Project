@@ -1,0 +1,75 @@
+.Footer {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.FooterBox1 {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.FooterHEADING {
+  font-size: 300%;
+  display: flex;
+  justify-content: start;
+  color: black;
+  text-shadow: 10px orangered;
+
+}
+
+span {
+  font-size: 50%;
+  font-weight: 500;
+  transform: translateX(38%) translateY(-1%) rotate(-90deg);
+}
+
+.Icon {
+  width: 120px;
+}
+
+.Services:hover {
+  color: orangered;
+  cursor: pointer;
+  text-shadow: 3px 3px 5px black;
+}
+
+@media screen and (min-width:250px)and (max-width:550px) {
+  .Footer {
+    flex-direction: column;
+    margin: 10px;
+
+  }
+}
+
+@media screen and (min-width:551px) and (max-width:850px) {
+  .Footer {
+    justify-content: space-between;
+    margin: 10px;
+
+  }
+
+  .FooterBox1 {
+    width: 330px;
+
+  }
+
+  .FooterBox2,
+  .FooterBox3,
+  .FooterBox4,
+  .FooterBox5 {
+    width: 150px;
+  }
+
+  .para {
+    width: 200px;
+    text-align: center;
+    /* height: 250px; */
+    margin-right: 0;
+  }
+
+  .FooterHEADING {
+    margin-top: 0;
+
+  }
+}

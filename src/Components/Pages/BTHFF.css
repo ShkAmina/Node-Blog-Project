@@ -1,0 +1,522 @@
+.News {
+  display: flex;
+  gap: 10px;
+  width: 650px;
+  height: 290px;
+}
+
+.NewsImg {
+  width: 300px;
+  height: 250px;
+}
+
+.Containt {
+  display: flex;
+  flex-direction: column;
+}
+.TNews {
+  display: flex;
+  gap: 10px;
+  width: 550px;
+  height: 290px;
+}
+
+.TNewsImg {
+  width: 300px;
+  height: 250px;
+}
+
+.TContaint {
+  display: flex;
+  flex-direction: column;
+}
+.TTopHeadings {
+  margin-top: 0;
+}
+
+
+.HEADING {
+  font-size: 300%;
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-shadow: 10px orangered;
+  text-align: center;
+
+}
+
+span {
+  font-size: 50%;
+  font-weight: 500;
+  transform: translateX(38%) translateY(-1%) rotate(-90deg);
+}
+
+.ShortLine {
+  width: 80px;
+  height: 3px;
+  background-color: orangered;
+  margin: 0;
+  border: none;
+}
+
+.TopHeadings {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+a:hover {
+  color: orangered;
+}
+
+p {
+  font-style: oblique;
+  margin-top: 0;
+}
+
+/********************TopPost******************/
+.TopPost {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.TopPostBollywood {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.TopPostCards {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/********************Home******************/
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+
+.ThreeImg {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.OneImg {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 0%;
+  margin-right: 5px;
+
+}
+
+.ImgOne {
+  width: 72%;
+  height: 60%;
+}
+
+.ImgTwo {
+  width: 90%;
+  height: 108%;
+}
+
+.TwoImg {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  width: 50%;
+}
+
+/********************TheLatest******************/
+.TheLatest {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.TheLatestBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 40%;
+  gap: 10%;
+}
+
+.TheLatestContaint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  width: 350px;
+}
+
+.TheLatestImg {
+  width: 100%;
+  height: 200px;
+}
+
+.Topic {
+  display: flex;
+  flex-direction: column;
+}
+
+.Third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.The_Latest {
+  margin-left: 39px;
+}
+
+.TheLatestHeading {
+  width: 100%;
+  font-size: 19px;
+
+}
+
+.LatestArticleBox {
+  display: flex;
+  margin-left: 20px;
+  gap: 2%;
+}
+
+.ArticleImg {
+  width: 45%;
+  height: 35vh;
+  margin-bottom: 15px;
+}
+
+.LatestArticaleHeading {
+  width: 80%;
+  margin: 0;
+}
+
+.LatestArticalePara {
+  width: 95%;
+}
+
+.TheArticleContaint {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+
+.Home3rdPart {
+  display: flex;
+  justify-content: center;
+}
+
+.HomeAd {
+  width: 80%;
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+
+}
+
+.Adverticement {
+  margin-right: 1%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+#video {
+  width: 110%;
+  border: solid;
+
+}
+
+.TopPosthome {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TopPostHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+}
+
+.TopPostContaint {
+  width: 65%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.TopPostImg {
+
+  width: 65%;
+  height: 35%;
+
+}
+
+#video2 {
+  /* width: 40%; */
+  width: 70%;
+}
+
+.video2 {
+  background-color: black;
+  display: flex;
+  border: solid;
+  width: 92%;
+  height: 42%;
+  justify-content: center;
+  align-items: center;
+}
+
+.LatestSTories {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 2%;
+  gap: 2%;
+}
+
+.LatestSToriesContainer {
+  width: 35%;
+}
+
+.Cat {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width:300px)and (max-width:550px) {
+
+  .ThreeImg {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ImgTwo {
+    display: none;
+  }
+
+  .OneImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+
+  }
+
+  .ImgOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550%;
+  }
+
+  .TheLatest {
+    flex-direction: column;
+    margin-left: 20px;
+
+  }
+
+  .Home3rdPart {
+    flex-direction: column;
+
+    overflow: hidden;
+  }
+
+  .LatestArticleBox {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+
+  .TheLatestBox {
+    width: 24rem;
+
+  }
+
+  .TheLatestImg {
+    width: 22rem;
+    height: 200px;
+  }
+
+  .ArticleImg {
+    width: 350px;
+  }
+
+  .TheArticleContaint {
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+
+  .Adverticement {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+
+  .HomeAd {
+    width: 350px;
+  }
+
+  .TopPostHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .TopPostContaint {
+    width: 90%;
+  }
+
+  #video2 {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+
+  #video {
+    width: 350px;
+  }
+
+  .Topic {
+    justify-content: center;
+    align-items: center;
+
+    width: 96.9%;
+    overflow: hidden;
+  }
+
+  .TopPostImg {
+
+    width: 93%;
+
+  }
+
+  .LatestSTories {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+  }
+
+  .LatestSToriesContainer {
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px
+  }
+
+  .News ,.TNews {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 370px;
+    height: 30rem;
+    margin-top: 10%;
+  }
+
+  .Containt ,.TContaint {
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 2%;
+  }
+
+  .Home {
+    width: 370px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /********************TopPost******************/
+  .TopPost {
+    flex-direction: column;
+    /* overflow: hidden; */
+
+  }
+
+  hr {
+    width: 98.9%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: black;
+  }
+}
+
+@media screen and (min-width:551px) and (max-width:850px) {
+  .TheLatest {
+    justify-content: space-around;
+  }
+
+  .TheLatestContaint {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ImgOne {
+    width: 73%;
+    /* height: 50%; */
+  }
+
+  .TopPost {
+    justify-content: space-around;
+  }
+
+  .News {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 65%;
+    margin-right: 0;
+    margin-left: 5%;
+  }
+  .TNews {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 65%;
+    margin-right: 10%;
+    /* gap: 10px;
+    width: 550px;
+    height: 290px; */
+  }
+
+
+}
