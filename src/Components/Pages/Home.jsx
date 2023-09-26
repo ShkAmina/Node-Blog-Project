@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { Store } from '../StoredData'
 import './BTHFF.css'
 import video1 from '../Newvido.mp4'
 import video2 from '../Ad2video.mp4'
@@ -10,11 +9,6 @@ import Linkcomp from '../LinkComp'
 import axios from 'axios'
 const Home = () => {
 
-  // const [theLatest] = useContext(Store);
-  // const [LatestArticle] = useContext(Store);
-  // const [TopPost] = useContext(Store);
-  // const [LatestStories] = useContext(Store);
-  
   const [Home,setHome] = useState("");
   useEffect(()=>{
     axios("https://node-blog-project-amina.onrender.com/api/new/data")
