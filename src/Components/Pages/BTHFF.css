@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .TNews {
   display: flex;
   gap: 10px;
@@ -30,6 +31,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .TTopHeadings {
   margin-top: 0;
 }
@@ -283,8 +285,7 @@ p {
 
 #video2 {
   /* width: 40%; */
-  width: 80%;
-  /* height: 85%; */
+  width: 90%;
 }
 
 .video2 {
@@ -319,12 +320,9 @@ p {
     margin: 0;
     margin-top: 10px;
     margin-left: 10px;
+    background-image: url("https://i.pinimg.com/736x/b6/bf/cb/b6bfcb9439780b726666886b92b70b6b.jpg");
     justify-content: center;
     align-items: center;
-    background-color: rgb(206, 136, 143);
-    background-image: url("https://i.pinimg.com/originals/96/43/01/96430124b954a87f6cce9f5bbdcd0595.jpg");
-    width: 22rem;
-    /* height: 23rem; */
   }
 
   .ImgTwo {
@@ -336,7 +334,6 @@ p {
     justify-content: center;
     align-items: center;
     margin-left: 45%;
-    /* width: 100%; */
 
   }
 
@@ -344,8 +341,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500%;
-    /* height: 100%; */
+    width: 550%;
   }
 
   .TheLatest {
@@ -449,7 +445,8 @@ p {
     margin-bottom: 10px
   }
 
-  .News ,.TNews {
+  .News,
+  .TNews {
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -458,7 +455,8 @@ p {
     margin-top: 10%;
   }
 
-  .Containt ,.TContaint {
+  .Containt,
+  .TContaint {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -477,15 +475,13 @@ p {
   .TopPost {
     flex-direction: column;
     /* overflow: hidden; */
-
   }
 
   hr {
-    width: 500rem;
+    width: 98.9%;
     margin-top: 5%;
     margin-bottom: 5%;
     color: black;
-    /* margin-right: 100px; */
   }
 }
 
@@ -501,7 +497,6 @@ p {
 
   .ImgOne {
     width: 73%;
-    /* height: 50%; */
   }
 
   .TopPost {
@@ -516,15 +511,14 @@ p {
     margin-right: 0;
     margin-left: 5%;
   }
+
   .TNews {
     display: flex;
     flex-direction: column;
     width: 98%;
     height: 65%;
     margin-right: 10%;
-    /* gap: 10px;
-    width: 550px;
-    height: 290px; */
+
   }
 
 
